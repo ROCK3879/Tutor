@@ -19,7 +19,7 @@
         /* Containers */
         .callout-container {
             height: 100vh; /* Full viewport height */
-            background: url('images/turor-bg.jpg') no-repeat center center fixed; /* Background image */
+            background: url('/assets/images/turor-bg.jpg') no-repeat center center fixed; /* Background image */
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -45,10 +45,12 @@
         
         .features {
             color: white; /* Text color */
+            text-align: center;
         }
 
         .features-container {
-            background-color: #3b5998; /* Container background color */
+            background: #007bff;
+            background: linear-gradient(to right, #0062E6, #33AEFF);
             color: white; /* Text color */
             text-transform: uppercase; /* Uppercase text */
         }
@@ -71,7 +73,7 @@
         }
 
         .block-divider--orange {
-            background-color: #3fb945; /* Specific divider color */
+            background-color: #007bff; /* Specific divider color */
         }
 
         .block-divider--short {
@@ -109,9 +111,15 @@
 
         .btn--red {
             color: white; /* Text color */
-            background-color: #f05f40; /* Background color */
-            border-color: #f05f40; /* Border color */
+            background-color: #007bff; /* Background color */
+            border-color: #fff; /* Border color */
         }
+
+        .btn-success {
+            color: #fff;
+             background-color: #007bff;
+            border-color: #fff;
+}
 
         .btn--red:hover,
         .btn--red:active,
@@ -126,10 +134,13 @@
             color: #fff; /* Text color */
             background-color: orangered; /* Badge background color */
         }
+        .btn-success:hover {
+            color: #fff;
+            background-color: #ffc107;
+            border-color: #fff;
+}
 
 /* Sign In Container */
-
-
 .card-img-left {
   width: 45%;
   /* Link to your background image using in the property below! */
@@ -153,7 +164,7 @@
   background-color: #3b5998;
 }
 
-/*Pricing container*/
+/*Pricing packages container*/
 section.pricing {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
@@ -216,6 +227,11 @@ section.pricing {
   .pricing .card:hover .btn {
     opacity: 1;
   }
+}
+
+.bg-primary {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
     </style>
@@ -312,11 +328,11 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="/assets/images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>Jane is our "Design Wizard." She is an experienced and dedicated professional with a passion for creating visually stunning and effective designs. 
+                                <p>Jane is our "Design Wizard" she is an experienced and dedicated professional with a passion for creating visually stunning and effective designs. 
                                     With her expertise in graphic design and user experience, Jane ensures that every project she undertakes is both aesthetically pleasing and functional, 
                                     meeting the highest standards of creativity and usability.</p>
                                 <footer class="blockquote-footer">See Jane's full profile <cite title="Twitter">"Design"</cite></footer>
@@ -330,7 +346,7 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="/assets/images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -346,7 +362,7 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="images/cyber-security.jpg" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="/assets/images/cyber-security.jpg" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -401,7 +417,7 @@ section.pricing {
                 </div>
             </div>
         </section>
-    </div>
+    </div><hr/>
 
     <!-- Header -->
 <header class="bg-primary text-center py-5 mb-4">
@@ -416,40 +432,160 @@ section.pricing {
       <!-- Team Member 1 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+          <img src= "assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">Chemistry</div>
           </div>
         </div>
       </div>
       <!-- Team Member 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">Mathematics</div>
           </div>
         </div>
       </div>
       <!-- Team Member 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">Spanish language</div>
           </div>
         </div>
       </div>
       <!-- Team Member 4 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
-            <h5 class="card-title mb-0">Team Member</h5>
-            <div class="card-text text-black-50">Web Developer</div>
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 5 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 6 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 7 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 8 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 9 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 10 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 11 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 12 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 13 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 14 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 15 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Member 16 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-0">Tutor</h5>
+            <div class="card-text text-black-50">English language</div>
           </div>
         </div>
       </div>
