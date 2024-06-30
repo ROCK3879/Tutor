@@ -7,6 +7,9 @@
     <title>Tutor | We connect generations through knowledge!</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- Descriptions and Keywords -->
+    <meta name="description" content="Our platform brings together leading experts from various fields such as mathematics, languages, physics, biology, chemistry, informatics, music, arts, and more. Learn from top educators and mentors to achieve academic excellence.">
+    <meta name="keywords" content="leading experts, top educators, academic excellence, mathematics, languages, physics, biology, chemistry, informatics, music, arts, personalized learning, one-on-one tutoring, interactive lessons, world-class professionals, learning platform, educational content, competitive exams, career skills, hobby learning, tailored instruction, real-time feedback">
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <!-- Google Fonts -->
@@ -19,7 +22,7 @@
         /* Containers */
         .callout-container {
             height: 100vh; /* Full viewport height */
-            background: url('/assets/images/turor-bg.jpg') no-repeat center center fixed; /* Background image */
+            background: url('/assets/images/header-bg.jpg') no-repeat center center fixed; /* Background image */
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -144,7 +147,7 @@
 .card-img-left {
   width: 45%;
   /* Link to your background image using in the property below! */
-  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  background: scroll center url('#');   /* This link was befor.. insted#.. https://source.unsplash.com/WEQbe2jBg40/414x512 */
   background-size: cover;
 }
 
@@ -253,37 +256,38 @@ section.pricing {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#AboutUs">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#Features">Features</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Educational Programs
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Mathematics</a>
-                        <a class="dropdown-item" href="#">German language</a>
-                        <a class="dropdown-item" href="#">English language</a>
-                        <a class="dropdown-item" href="#">French language</a>
-                        <a class="dropdown-item" href="#">Spanish language</a>
-                        <a class="dropdown-item" href="#">Physics</a>
-                        <a class="dropdown-item" href="#">Biology</a>
-                        <a class="dropdown-item" href="#">Chemistry</a>
-                        <a class="dropdown-item" href="#">Geography</a>
-                        <a class="dropdown-item" href="#">Informatics</a>
-                        <a class="dropdown-item" href="#">Sociology</a>
-                        <a class="dropdown-item" href="#">Economics</a>
-                        <a class="dropdown-item" href="#">Music</a>
-                        <a class="dropdown-item" href="#">Visual arts</a>
+                        <a class="dropdown-item" href="#Mat1">Mathematics</a>
+                        <a class="dropdown-item" href="#Ger2">German language</a>
+                        <a class="dropdown-item" href="#Eng3">English language</a>
+                        <a class="dropdown-item" href="#Fre4">French language</a>
+                        <a class="dropdown-item" href="#Spa5">Spanish language</a>
+                        <a class="dropdown-item" href="#Phy6">Physics</a>
+                        <a class="dropdown-item" href="#Bio7">Biology</a>
+                        <a class="dropdown-item" href="#Che8">Chemistry</a>
+                        <a class="dropdown-item" href="#Geo9">Geography</a>
+                        <a class="dropdown-item" href="#Inf10">Informatics</a>
+                        <a class="dropdown-item" href="#Soc11">Sociology</a>
+                        <a class="dropdown-item" href="#Eco12">Economics</a>
+                        <a class="dropdown-item" href="#Mus13">Music</a>
+                        <a class="dropdown-item" href="#Vis14">Visual arts</a>
                     </div>
                     <!-- /.row -->
 
                    <!-- Sign In link -->  
                 </li>
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Sign In / Sign Up</a></li>
+                <li class="nav-item mr-2 d-block d-sm-none"></li> <a class="nav-link" href="/" style="display: none;">Sign In # Sign Up </a></li> <!-- This row is closed, if you want it to be active, delete it (style= display:none;) -->
             </ul>
         </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>We connect generations through knowledge!</i></p>
-            <a href="/login">Sign In / Sign Up</a>
+            <a href="#" style="display: none;">Sign In / Sign Up</a> <!-- This row is closed, if you want it to be active, delete it (style= display:none;) -->
         </div>
     </nav>
     <!-- /.row -->
@@ -324,7 +328,7 @@ section.pricing {
 
     <!-- About Us -->
      <!-- Our Team Main Header -->
-  <header class="bg-primary text-center py-5 mb-4">
+  <header class="bg-primary text-center py-5 mb-4" id="AboutUs">
     <div class="container">
       <h1 class="fw-light text-white">About Us</h1>
     </div>
@@ -343,7 +347,7 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="/assets/images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="https://via.placeholder.com/200x200" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -362,7 +366,7 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="/assets/images/guy-image.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="https://via.placeholder.com/200x200" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -381,7 +385,7 @@ section.pricing {
                 <div class="col-12 col-md-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img src="/assets/images/cyber-security.jpg" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="https://via.placeholder.com/200x200" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -401,7 +405,7 @@ section.pricing {
     <!-- /.row -->
 
     <!-- Features Header -->
-  <header class="bg-primary text-center py-5 mb-4">
+  <header class="bg-primary text-center py-5 mb-4" id="Features">
     <div class="container">
       <h1 class="fw-light text-white">Features</h1>
     </div>
@@ -413,16 +417,16 @@ section.pricing {
 <div class="container">
 
   <!-- Feature One -->
-  <div class="row">
+  <div class="row" id="BacktoFeatures1">
     <div class="col-md-7">
       <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="/assets/images/feature_1.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
       </a>
     </div>
     <div class="col-md-5">
       <h3>Top Experts at Your Fingertips</h3>
       <p>Our platform brings together leading experts from various fields - mathematics, languages, physics, biology, chemistry, informatics, music, arts, and many more. With access to top educators and mentors, our users have the opportunity to learn from the best in their field, ensuring the highest quality of education.</p>
-      <a class="btn btn-primary" href="https://www.example.com">Read More</a>
+      <a class="btn btn-primary" href="/features1.html">Read More</a>
     </div>
   </div>
   <!-- /.row -->
@@ -430,16 +434,16 @@ section.pricing {
   <hr>
 
   <!-- Feature Two -->
-  <div class="row">
+  <div class="row" id="BacktoFeatures2">
     <div class="col-md-7">
       <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="/assets/images/feature_2.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
       </a>
     </div>
     <div class="col-md-5">
       <h3>Wide Range of Subjects</h3>
       <p>Whether you are interested in exact sciences like mathematics and physics, natural sciences like biology and chemistry, or creative areas such as music and arts, our platform offers a comprehensive selection of courses tailored to various interests and levels of knowledge. Learn what you love, in the way that suits you best.</p>
-      <a class="btn btn-primary" href="https://www.example.com">Read More</a>
+      <a class="btn btn-primary" href="/features2.html">Read More</a>
     </div>
   </div>
   <!-- /.row -->
@@ -447,16 +451,16 @@ section.pricing {
   <hr>
 
   <!-- Feature Three -->
-  <div class="row">
+  <div class="row" id="BacktoFeatures3">
     <div class="col-md-7">
       <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="/assets/images/feature_3.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
       </a>
     </div>
     <div class="col-md-5">
       <h3>Interactive and Personalized Learning</h3>
       <p>Our platform utilizes the latest technologies and interactive learning methods to ensure that each user has a personalized educational experience. With adaptable courses, quizzes, and feedback, you can track your progress and focus on areas that require extra attention.</p>
-      <a class="btn btn-primary" href="https://www.example.com">Read More</a>
+      <a class="btn btn-primary" href="/features3.html">Read More</a>
     </div>
   </div>
   <!-- /.row -->
@@ -464,22 +468,25 @@ section.pricing {
   <hr>
 
   <!-- Feature Four -->
-  <div class="row">
+  <div class="row" id="BacktoFeatures4">
 
     <div class="col-md-7">
       <a href="#">
-        <img class="img-fluid rounded mb-3 mb-md-0" src="/assets/images/features_4.jpg" alt="">
+        <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
       </a>
     </div>
     <div class="col-md-5">
       <h3>Accessibility and Flexibility</h3>
       <p>Learning has never been easier and more flexible. Our platform allows you to access high-quality educational content anytime, anywhere. Whether you are at home, on the go, or on a break at work, you can continue learning at your own pace and on your own schedule.</p>
-      <a class="btn btn-primary" href="https://www.example.com">Read More</a>
+      <a class="btn btn-primary" href="/features4.html">Read More</a><br>
     </div>
   </div>
-  <!-- /.row -->
 
-  <hr>
+  <!-- Back to top button -->
+  <br><div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
+  <!-- /.row -->
 
   <!-- Pagination (If you need the code, it's there, just delete these characters at the beginning " !-- " and those at the end of the code " -- ")--> 
   <!--ul class="pagination justify-content-center">
@@ -519,7 +526,7 @@ section.pricing {
   <br>
 
   <!-- Meet the Mathematics Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Mat1">
     <div class="container">
       <h1 class="fw-light text-white">Mathematics</h1>
     </div>
@@ -539,10 +546,11 @@ section.pricing {
           </div>
         </div>
       </div>
+    
       <!-- Mathematics Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Mathematics</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -553,7 +561,7 @@ section.pricing {
       <!-- Mathematics Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Mathematics</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -575,8 +583,14 @@ section.pricing {
     </div> 
   </div>   
 
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
+
+
           <!-- Meet the German language Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Ger2">
     <div class="container">
       <h1 class="fw-light text-white">German language</h1>
     </div>
@@ -599,7 +613,7 @@ section.pricing {
         <!-- German language Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">German language</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -610,7 +624,7 @@ section.pricing {
         <!-- German language Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">German language</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -630,10 +644,15 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div> 
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
   
             <!-- Meet the English language Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Eng3">
       <div class="container">
         <h1 class="fw-light text-white">English language</h1>
       </div>
@@ -656,7 +675,7 @@ section.pricing {
       <!-- English language Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">English language</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -667,7 +686,7 @@ section.pricing {
       <!-- English language 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">English language</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -687,10 +706,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div> 
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the French language Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Fre4">
     <div class="container">
       <h1 class="fw-light text-white">French language</h1>
     </div>
@@ -713,7 +737,7 @@ section.pricing {
         <!-- French language Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">French language</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -724,7 +748,7 @@ section.pricing {
         <!-- French language 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">French language</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -744,10 +768,15 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div> 
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
   
             <!-- Meet the Spanish language Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Spa5">
       <div class="container">
         <h1 class="fw-light text-white">Spanish language</h1>
       </div>
@@ -770,7 +799,7 @@ section.pricing {
       <!-- Spanish language Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Spanish language</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -781,7 +810,7 @@ section.pricing {
       <!-- Spanish language Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Spanish language</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -801,10 +830,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div>  
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the Physik Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Phy6">
     <div class="container">
       <h1 class="fw-light text-white">Physik</h1>
     </div>
@@ -827,7 +861,7 @@ section.pricing {
         <!-- Physik Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Physik</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -838,7 +872,7 @@ section.pricing {
         <!-- Physik Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Physik</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -858,10 +892,15 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div>  
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
   
             <!-- Meet the Biology Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Bio7">
       <div class="container">
         <h1 class="fw-light text-white">Biology</h1>
       </div>
@@ -884,7 +923,7 @@ section.pricing {
       <!-- Biology Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Biology</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -895,7 +934,7 @@ section.pricing {
       <!-- Biology Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Biology</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -915,10 +954,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div> 
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the Chemistry Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Che8">
     <div class="container">
       <h1 class="fw-light text-white">Chemistry</h1>
     </div>
@@ -941,7 +985,7 @@ section.pricing {
         <!-- Chemistry Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Chemistry</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -952,7 +996,7 @@ section.pricing {
         <!-- Chemistry Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Chemistry</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -972,10 +1016,15 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div>  
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
   
             <!-- Meet the Geography Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Geo9">
       <div class="container">
         <h1 class="fw-light text-white">Geography</h1>
       </div>
@@ -998,7 +1047,7 @@ section.pricing {
       <!-- Geography Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Geography</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1009,7 +1058,7 @@ section.pricing {
       <!-- Geography Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Geography</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1029,10 +1078,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div>  
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the Informatics Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Inf10">
     <div class="container">
       <h1 class="fw-light text-white">Informatics</h1>
     </div>
@@ -1055,7 +1109,7 @@ section.pricing {
         <!-- Informatics Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Informatics</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1066,7 +1120,7 @@ section.pricing {
         <!-- Informatics Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Informatics</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1086,10 +1140,15 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div>  
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
   
             <!-- Meet the Sociology Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Soc11">
       <div class="container">
         <h1 class="fw-light text-white">Sociology</h1>
       </div>
@@ -1112,7 +1171,7 @@ section.pricing {
       <!-- Sociology Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Sociology</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1123,7 +1182,7 @@ section.pricing {
       <!-- Sociology Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Sociology</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1143,10 +1202,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div>  
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the Economics Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Eco12">
     <div class="container">
       <h1 class="fw-light text-white">Economics</h1>
     </div>
@@ -1169,7 +1233,7 @@ section.pricing {
         <!-- Economics Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Economics</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1180,7 +1244,7 @@ section.pricing {
         <!-- Economics Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Economics</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1200,12 +1264,17 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div> 
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
 
             <!-- Meet the Music Tutors Sub-Header -->
-    <header class="bg-primary text-center py-1 mb-4">
+    <header class="bg-primary text-center py-1 mb-4" id="Mus13">
       <div class="container">
-        <h1 class="fw-light text-white">Physik</h1>
+        <h1 class="fw-light text-white">Music</h1>
       </div>
     </header>
 
@@ -1226,7 +1295,7 @@ section.pricing {
       <!-- Music Tutor 2 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Music</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1237,7 +1306,7 @@ section.pricing {
       <!-- Music Tutor 3 -->
       <div class="col-xl-3 col-md-6 mb-4">
         <div class="card border-0 shadow">
-          <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+          <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Music</h5>
             <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1257,10 +1326,15 @@ section.pricing {
         </div>
       </div>
     </div> 
-  </div>   
+  </div>
+  
+  <!-- Back to top button -->
+  <div style="text-align: center;">
+    <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+  </div><br>
 
           <!-- Meet the Visual arts Tutors Sub-Header -->
-  <header class="bg-primary text-center py-1 mb-4">
+  <header class="bg-primary text-center py-1 mb-4" id="Vis14">
     <div class="container">
       <h1 class="fw-light text-white">Visual arts</h1>
     </div>
@@ -1283,7 +1357,7 @@ section.pricing {
         <!-- Visual arts Tutor 2 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/math.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Visual arts</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐</div>
@@ -1294,7 +1368,7 @@ section.pricing {
         <!-- Visual arts Tutor 3 -->
         <div class="col-xl-3 col-md-6 mb-4">
           <div class="card border-0 shadow">
-            <img src="/assets/images/span.jpg" class="card-img-top" alt="...">
+            <img src="/assets/images/chem.jpg" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h5 class="card-title mb-0">Visual arts</h5>
               <div class="card-text text-black-50">⭐⭐⭐⭐⭐</div>
@@ -1314,7 +1388,12 @@ section.pricing {
           </div>
         </div>
       </div> 
-    </div>   
+    </div>
+    
+    <!-- Back to top button -->
+    <div style="text-align: center;">
+      <a href="#navbarDropdownMenuLink" class="btn btn-primary ladda-button" data-style="expand-left"><span class="ladda-label">Back to Top</span></a>
+    </div><br>
 
     <!-- /.row --> 
   </div>
@@ -1411,7 +1490,7 @@ section.pricing {
 
     <!-- Sign Up Modal -->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog" role="document" id="flex">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Sign up and choose a Tutor!</h5>
@@ -1458,9 +1537,17 @@ section.pricing {
                           </button>
                         </div>
           
-                        <div class="d-grid">
+                        
+                        <div class="d-grid mb-2">
                           <button class="btn btn-lg btn-facebook btn-login fw-bold text-uppercase" type="submit">
                             <i class="fab fa-facebook-f me-2"></i> Sign up with Facebook
+                          </button>
+                        </div>
+
+
+                        <div class="d-grid mb-2">
+                          <button class="btn btn-block btn-social btn-twitter">
+                            <span class="fa fa-twitter"></span> Sign in with Twitter
                           </button>
                         </div>
           
